@@ -120,8 +120,14 @@ ul li{
 }
 
 ul li:before {
-	content: "*";
+	content: "♦";
 	color: #999; 
 	position: absolute;
 	left: -1.2em;
+}
+
+table th {
+	background-color: rgba(75,55,82,1.00);
+	border-style:solid;
+	border-width: thin;	
 }
