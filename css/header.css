@@ -1,3 +1,9 @@
 @charset "UTF-8";
 /* header CSS Document */
 
+.grid-header{
+	background-color: rgba(76,13,137,1.00);
+	clear: both;
+	text-align: center;
+}
+

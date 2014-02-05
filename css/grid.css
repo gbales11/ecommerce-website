@@ -3,13 +3,18 @@
 }
 
 .unit {
-	background-color: #FFF;
 	float: left;
 }
 
 .unit-s-1 {
 	width: 100%
 }
+
+.footer {
+	float: bottom;
+	
+}
+
 
 @media only screen and (min-width: 30em){
 	
