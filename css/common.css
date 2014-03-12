@@ -16,6 +16,16 @@ html{
 	color: #fff;
 }
 
+.nav {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+.nav > li {
+	display: inline-block;
+}
+
 * {
 	-moz-box-sizing: border-box;
 	-webkit-box-sizing: border-box;
