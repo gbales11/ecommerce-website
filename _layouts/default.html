@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Default</title>
+<title>{% if page.title %}{{page.title}} . {% endif %}Default</title>
 <meta name="handheldfriendly" content="true">
 <meta name="mobileoptimized" content="240">
 <meta name="viewport" content="width-device,initial-scale=1">
@@ -18,19 +18,20 @@
 <link href="../css/footer.css" rel="stylesheet">
 <link href="../css/grid.css" rel="stylesheet">
 <link href="{{site.baseurl}}/css/common.css" rel="stylesheet">
+<meta name="description" content="{{page.meta}}">
 </head>
 
 <body>
 
-<header> 
+<header class="masthead {{page.mastheadClass}}"> 
 	<h1>The Sweet Spot</h1>
-	{% include nav.html %}
+	{% include nav.html navclass='nav-top' %}
 </header>
 
 {{content}}
 
 <footer>
-{% include nav.html %}
+{% include nav.html navclass='nav-bottom' %}
 <p> ç 2014 Sweet Spot </p>
 </footer>
 
