@@ -7,3 +7,14 @@
 	text-align: center;
 }
 
+
+.banner{
+	background: #C374DA no-repeat center center;
+	background-size: cover;
+	padding: 5em 1em 1em;
+	text-align: center;
+}
+
+.banner h2 {
+	color: #fff;
+}

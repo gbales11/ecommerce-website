@@ -91,17 +91,3 @@ html {
 		}
 }
 
-/*header footer*/ 
-
-.grid-header{
-	background-color: #C374DA;
-	clear: both;
-	text-align: center;
-}
-
-.grid-footer{
-	background-color: #C374DA;
-	clear: both;
-	text-align:center;
-	color: #fff;
-}
