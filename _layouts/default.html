@@ -25,7 +25,16 @@
 
 <header class="masthead {{page.mastheadClass}}"> 
 	<h1>The Sweet Spot</h1>
-	{% include nav.html navclass='nav-top' %}
+	{% include nav.html navclass='nav-top' %} 
+	
+	<div id="search">
+			<form method="get" action="{{site.baseurl}}/search/"action="javascript:void(0);" method="GET">
+				<fieldset class="clearfix">
+					<input type="search" name="search" value="What are you looking for?" onBlur="if(this.value=='')this.value='What are you looking for?'" onFocus="if(this.value=='What are you looking for?')this.value='' "> <!-- JS because of IE support; better: placeholder="What are you looking for?" -->
+					<input type="submit" value="Search" class="button">
+				</fieldset>
+			</form>
+		</div>
 </header>
 
 {% if page.showbanner %}
