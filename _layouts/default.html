@@ -28,7 +28,7 @@
 	{% include nav.html navclass='nav-top' %} 
 	
 	<div id="search">
-			<form method="get" action="{{site.baseurl}}/search/"action="javascript:void(0);" method="GET">
+			<form method="get" action="{{site.baseurl}}/search/" action="javascript:void(0);" method="GET">
 				<fieldset class="clearfix">
 					<input type="search" name="search" value="What are you looking for?" onBlur="if(this.value=='')this.value='What are you looking for?'" onFocus="if(this.value=='What are you looking for?')this.value='' "> <!-- JS because of IE support; better: placeholder="What are you looking for?" -->
 					<input type="submit" value="Search" class="button">
