@@ -111,6 +111,19 @@ a:active {
 	border-bottom-color: rgba(76,13,137,1.00);
 } 
 
+a:hover,
+a:active {
+	/* ok to remve focus rec for mouse actions */
+	outline: none;
+}
+
+a:focus, 
+input:focus,
+button:focus, {
+	/* MUST ALWAYS HAVE FOCUS REC FOR KEYBOARD USERS*/
+	outline: 3px solid #000;
+}
+
 ul { 
 list-style-type: none;
 }
@@ -120,7 +133,6 @@ ul li{
 }
 
 ul li:before {
-	content: "♦";
 	color: #999; 
 	position: absolute;
 	left: -1.2em;
