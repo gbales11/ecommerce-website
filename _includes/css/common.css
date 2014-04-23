@@ -5,8 +5,8 @@
 @viewport { width: device-width; scale: 1; }
 
 html{
-	margin: 0;
-	padding: 0;
+	margin: 50px;
+	padding: 50px;
 	
 	font: normal 100%/1.4 Georgia, serif;
 }
@@ -20,6 +20,7 @@ html{
 	margin: 0;
 	padding: 0;
 	list-style-type: none;
+	background-color:#474C49;
 }
 
 .nav > li {
